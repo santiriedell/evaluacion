@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practíca Evaluativa</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <h1>Gestion de estudiantes y notas</h1>
+        <div >
+            <h1>Estudiante:<span id="Estudiante"></span></h1>
+            <h2>Notas: <span id="Notas"></span></h2>
+            <h2>Promedio: <span id="promedio"></span></h2>
+       </div>
+       <div >
+        <button onclick="VerEstudianteS()">siguiente</button>
+        <button onclick="VerEstudianteA()">Anterior</button>
+    </div>
+    <div class="container">
+        <label for="nombre">Nombre del Estudiante:</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+    
+        <label for="Nota">Ingresa Nota:</label>
+        <input type="text" id="nota1" placeholder="Ingresa tu Nota">
+        <label for="Nota">Ingresa Nota:</label>
+        <input type="text" id="nota2" placeholder="Ingresa tu Nota">
+        <label for="Nota">Ingresa Nota:</label>
+        <input type="text" id="nota3" placeholder="Ingresa tu Nota">
+    
+        <button onclick="iniciar()">enviar</button> 
+    </div>
+    <div >
+        <button onclick="ingresarNota()">Ingresar Nota</button>
+        <button onclick="ingresarNotaEstudiante()">Ingresar Nota al estudiante Actual</button>
+        <button onclick="ingresarNuevoEstudiante()">Nuevo Estudiante</button>
+    </div>
+   
+<script src="script.js"></script>
+</body>
+</html>
+
